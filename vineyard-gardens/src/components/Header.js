@@ -1,10 +1,24 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMicrophone, faHeartbeat } from '@fortawesome/free-solid-svg-icons'; // Import icons
 
 const Header = () => {
   return (
-    <header className="text-center py-6 bg-white shadow-lg">
-      <h1 className="text-4xl font-bold text-green-600">VineYard Gardens</h1>
-      <p className="text-gray-500 text-lg">Where every meal tells a story.</p>
+    <header className="flex justify-between items-center bg-white shadow-md h-16 px-4">
+      {/* Speak Icon */}
+      <div className="text-green-600">
+        <FontAwesomeIcon icon={faMicrophone} size="2x" />
+      </div>
+
+      {/* Logo */}
+      <div className="text-center">
+        <h1 className="text-2xl font-bold text-green-600">VineYard Gardens</h1>
+      </div>
+
+      {/* Health/Emergency Icon */}
+      <div className="text-red-600">
+        <FontAwesomeIcon icon={faHeartbeat} size="2x" />
+      </div>
     </header>
   );
 };

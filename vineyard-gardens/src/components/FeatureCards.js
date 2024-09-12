@@ -5,12 +5,12 @@ const FeatureCards = () => {
     {
       title: "Treat yourself to our best combo",
       button: "Get",
-      img: "./assets/pork.jpg"
+      img: "../images/pork.jpg"
     },
     {
       title: "Check out our today’s offer",
       button: "On Offer",
-      img: "./assets/meat.jpg"
+      img: "/images/meat.jpg"
     },
   ];
 

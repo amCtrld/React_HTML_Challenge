@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="text-center">
         <h2 className="text-5xl font-bold text-black mb-6">Today's Special</h2>
         <img
-          src="./assets/chicken.png"
+          src="./images/chicken.png"
           alt="Today's Special"
           className="rounded-full shadow-lg w-96 h-96 object-cover mx-auto"
         />
